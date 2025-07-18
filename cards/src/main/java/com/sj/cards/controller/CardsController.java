@@ -32,6 +32,25 @@ public class CardsController {
 
     private ICardsService iCardsService;
 
+
+    @Operation(
+            summary = "Create Card REST API",
+            description = "REST API to create new Card inside"
+    )
+    @ApiResponses({
+            @ApiResponse(
+                    responseCode = "201",
+                    description = "HTTP Status CREATED"
+            ),
+            @ApiResponse(
+                    responseCode = "500",
+                    description = "HTTP Status Internal Server Error",
+                    content = @Content(
+                            schema = @Schema(implementation = ErrorResponseDto.class)
+                    )
+            )
+    }
+    )
     @PostMapping("/create")
     public ResponseEntity<ResponseDto> createCard(@Valid
                                                   @RequestParam
