@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+loans:
+  message: "Welcome to sj loans related prod APIs "
+  contactDetails:
+    name: "sj-prod"
+    email: "sj@sj.com"
+  onCallSupport:
+      - (777) 333-1234
+      - (888) 222-1234

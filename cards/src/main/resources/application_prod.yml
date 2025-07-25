@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to SJ cards related prod APIs "
+  contactDetails:
+    name: "js-prod"
+    email: "sj-prod@sj.com"
+  onCallSupport:
+    - (444) 666-1234
+    - (444) 777-1234

@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+cards:
+  message: "Welcome to SJ cards related QE APIs "
+  contactDetails:
+    name: "js-qe"
+    email: "sj-qe@sj.com"
+  onCallSupport:
+    - (999) 555-1234
+    - (999) 444-1234
