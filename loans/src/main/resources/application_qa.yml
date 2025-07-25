@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to sj loans related qa APIs "
+  contactDetails:
+    name: "sj-qa"
+    email: "sj@sj.com"
+  onCallSupport:
+    - (999) 111-1234
+    - (555) 444-1234

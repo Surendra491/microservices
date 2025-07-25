@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to sj accounts related prod APIs"
+  contactDetails:
+    name: "Sj-prod"
+    email: "sj-prod@sj.com"
+  onCallSupport:
+    - (999) 555-1234
+    - (999) 523-1234
